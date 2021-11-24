@@ -4,7 +4,7 @@ metadata:
   name: ingresetup
   annotations:
     kubernetes.io/ingress.class: kong
-    konghq.com/strip-path: "true"
+    konghq.com/plugins: five-per-min
 spec:
   rules:
   - http:
